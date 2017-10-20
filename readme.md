@@ -1,42 +1,24 @@
-# inventarios
+"# simple-stock" 
 
-[![Join the chat at https://gitter.im/danielromeroauk/inventarios](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/danielromeroauk/inventarios?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Simple Stock (Inventario Simple) es un sistema web desarrollado con PHP, MySQL y Bootstrap, que cubre una serie de 
+requerimientos básicos para llevar el control del inventario de una empresa o negocio. Esta es  una solución sencilla 
+para que los propietarios de pequeñas empresas gestionen sus existencias de manera sistemática, y de esa manera poder 
+reemplazar el uso de hojas de calculo para gestionar  su inventario.
 
-Aplicación realizada con laravel 4.0.10, un framework con sintaxis elegante que facilita el desarrollo de aplicaciones web.
+Instalación en windows (servidor local)
 
-## Captura de pantalla del informe de artículos
-![Inventarios](http://fc03.deviantart.net/fs71/f/2014/223/8/d/inventarios_by_danielromeroauk-d7usgrz.png "Inventarios")
+1- Descargar los archivos fuentes del sistema
 
-La aplicación registra los movimientos de artículos de las sucursales de una empresa, tales como compras, ventas, rotaciones entre sucursales, entregas inmediatas y daños.
+2- Copiar y descomprimir el archivo en la carpeta c:\xampp\htdocs, al final tendras una carpeta llamada “simple_stock”, a la cual podrás acceder desde el navegador como: http://localhost/simple_stock/
 
-# Flujo normal de una rotación
+3- Crear una base de datos usando PHPMyAdmin accediendo a la url siguiente: http://localhost/phpmyadmin/
 
-## 1. El remisionero crea la rotación
+4- Importar las tablas de la base de datos para ello vamos a buscar el archivo "simple_stock.sql" en el directorio root de nuestro sistema, una vez localizado procedemos a hacer la importación de los datos desde PHPMyAdmin
 
-En este punto es posible cancela la remisión en caso de error.
+5- Configurar los datos de conexión a la base de datos editando el archivo de configuración que se encuentra en la siguiente ruta: simple_stock/config/db.php
 
-Estado de rotación: pendiente en origen.
+6- Vista web: http://localhost/simple_stock/
 
-Se pueden agregar comentarios a la rotación.
+7- Datos de acceso por defecto: usuario: admin y contraseña: admin
 
-Los artículos dejan de estar disponible en origen.
-
-## 2. El bodeguero en origen acepta la salida
-
-La remisión no puede cancelarse.
-
-Cualquier usuario aún puede comentar la rotación.
-
-Estado de la rotación: pendiente en destino.
-
-Los artículos no están disponibles en ningún lado.
-
-## 3. El bodeguero en destino acepta la entrada
-
-La remisión no se puede cancelar.
-
-Estado de la rotación: finalizado.
-
-Los artículos aparecen disponibles en destino.
-
-No se puede comentar más.
+Para más información visita: http://obedalvarado.pw/blog/sistema-inventario-simple-php/
