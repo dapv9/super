@@ -7,8 +7,8 @@ class UsersTableSeeder extends Seeder {
 		// DB::table('users')->truncate();
 		$users = array(
 			array(
-				'name' => 'Daniel Romero Gelvez',
-				'email' => 'danielromeroauk@gmail.com',
+				'name' => 'David Parra',
+				'email' => 'david.parra@udea.edu.co',
 				'password' => Hash::make('123')
 			)
 		);
