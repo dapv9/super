@@ -1,0 +1,108 @@
+div.panel-footer form {
+    display: inline;
+}
+
+*[class*=ui-] {
+    font-size: .875em;
+}
+
+*[class*=alert-] {
+    max-width: 79em;
+}
+
+ul.purchase, ul.sale, ul.damage, ul.instant, ul.rotation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+.alcarrito {
+    max-width: 10em;
+    min-width: 3em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.article-image, .article-image img {
+    display:inline-block;
+    max-height: 100px;
+    margin: 0 2em 1.5em 0;
+    max-width:100px;
+    vertical-align:top;
+}
+
+.img {
+    border: dashed 1px #3576BE;
+    height: 100px;
+    width: 100px;
+}
+
+.boton-aplicar {
+    clear: both;
+    padding: 1em 0 0 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.datos {
+    margin-top: 1em;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+    text-align: right;
+}
+
+.pagination {
+    display: block;
+}
+
+#busquedaform {
+    float: none;
+}
+
+#busquedaform .grupobusqueda {
+    clear: both;
+    margin: 0 0 1em 0;
+    max-width: 79em;
+    min-width: 365px;
+}
+
+#busquedaform .grupofilterBy {
+    padding: 0;
+}
+
+#encabezado {
+    margin-bottom: 2px;
+}
+
+#encabezado ul.nav li {
+    display: inline-block;
+}
+
+@media screen and (min-width: 750px) {
+
+    .remision {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 49%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .articulo {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 49%;
+    }
+
+}
