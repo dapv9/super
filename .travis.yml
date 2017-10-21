@@ -1,0 +1,25 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+
+sudo: false
+
+branches:
+  only:
+  - master
+notifications:
+  email:
+  - blendboy@gmail.com
+  - ceciliac86548@gmail.com
+  
+deploy:
+  provider: releases
+  api_key: "a8b3dd07d9e2ef730a764277a2d5a2c050ac2496"
+  file: "inventario-1.0.0-RELEASE.jar"
+  skip_cleanup: true
+  on:
+    tags: true
+    
+  
