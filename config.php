@@ -1,15 +1,15 @@
 <?php
 /** El nombre de tu base de datos de WordPress */
-define("DB_NAME", "proyecto_fp2");
+define("DB_NAME", "d1kutd0jpqtuse");
 
 /** Tu nombre de usuario de MySQL */
-define("DB_USER", "root");
+define("DB_USER", "ffklwvhysrbcue");
 
 /** Tu contraseña de MySQL */
-define("DB_PASSWORD", "jask");
+define("DB_PASSWORD", "d793e771d947323058987dc718bab324b35777c7d3b56e1dbb5667711605a38d");
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define("DB_HOST", "localhost");
+define("DB_HOST", "ec2-107-20-226-93.compute-1.amazonaws.com");
 
 /**
  *
