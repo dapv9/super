@@ -39,7 +39,7 @@ function isIpaddr ($ipaddr){
 /** URL de la web **/
 if(!defined("__URL__"))
 {
-    if($_SERVER["SERVER_NAME"] == "localhost" || isIpaddr($_SERVER["SERVER_NAME"])){
+    if($_SERVER["SERVER_NAME"] == "ec2-107-20-226-93.compute-1.amazonaws.com" || isIpaddr($_SERVER["SERVER_NAME"])){
         $path = (strtoupper(substr(PHP_OS, 0, 3)) === "WIN") ? "\\" : "/";       
 	$replace = explode($path, dirname(__FILE__));
 	$countReplace = count($replace);
