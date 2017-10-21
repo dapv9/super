@@ -1,1 +1,0 @@
-<img src="imgs/pgconstruccion.jpg" border="1" />&nbsp;
