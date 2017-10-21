@@ -14,7 +14,7 @@ class BD{
 /*CONSTRUCTOR DE LA CLASE BASE DE DATOS QUE INICIALIZA LAS VARIABLES DE LA CLASE*/
  FUNCTION BD(){
 	$bd="d1kutd0jpqtuse";
-    $this->servidor="ec2-107-20-226-93.compute-1.amazonaws.com";
+    $this->servidor="ec2-107-20-226-93.compute-1.amazonaws.com:5432";
 	$this->usuario="ffklwvhysrbcue";
 	$this->password="d793e771d947323058987dc718bab324b35777c7d3b56e1dbb5667711605a38d";
 	$this->dtbs=$bd;}
